@@ -1,0 +1,14 @@
+﻿DEMO:
+
+id unitow
+
+---------
+FULL VERSION:
+modes:
+	matura mode
+	fun mode
+	milionerzy mode
+achievements
+unit adding/editing
+extensive player statistics
+	% effective time

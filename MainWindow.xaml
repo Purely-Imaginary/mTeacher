@@ -1,0 +1,80 @@
+﻿<Window x:Name="Main_Window" x:Class="mTeacher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="mTeacher" Height="342" Width="500" 
+        ResizeMode="NoResize" WindowStartupLocation="CenterScreen" 
+        Background="{x:Null}" WindowStyle="None" Icon="Resources/SkillIcon_Placeholder.png" 
+        Activated="Main_Window_Activated">
+
+    <Grid x:Name="Grid1" HorizontalAlignment="Left" Width="{Binding ActualWidth, ElementName=Main_Window, Mode=OneWay}" Height="{Binding ActualHeight, ElementName=Main_Window, Mode=OneWay}">
+        <Rectangle HorizontalAlignment="Left" Height="{Binding ActualHeight, ElementName=Main_Window, Mode=OneWay}" Stroke="Black" VerticalAlignment="Top" Width="{Binding ActualWidth, ElementName=Main_Window, Mode=OneWay}" RadiusX="8" RadiusY="14" StrokeThickness="2">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFCBFBEC" Offset="0"/>
+                    <GradientStop Color="#FF60F1C3" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Button x:Name="Start_Button" Content="Rozpocznij naukę" VerticalAlignment="Top" Margin="10,10,0,0" HorizontalAlignment="Left" Width="147" Click="Start_Button_Click"/>
+        <Label x:Name="labelActualUnit" Content="Actual Unit Text" HorizontalAlignment="Left" FontWeight="ExtraBlack" Margin="38,37,0,279">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <Label Content="Unit Progress" Margin="55,48,0,268" FontSize="10" BorderThickness="0" FontStyle="Italic" HorizontalAlignment="Left">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <Button x:Name="Unit_Select_Button" Content="Zmień zakres" Margin="10,74,0,246" HorizontalAlignment="Left" Width="147" Click="Unit_Select_Button_Click"/>
+        <Button x:Name="Exit_button" Content="Wyjście" IsDefault="True" ToolTip="Exit button" Click="Exit_Button_Click" Height="41" VerticalAlignment="Bottom" Padding="7,1,1,1" Margin="10,0,0,10" FontWeight="Bold" HorizontalAlignment="Left" Width="147"/>
+        <Button x:Name="Stat_Button" Content="Statystyki" HorizontalAlignment="Left" Margin="10,111,0,0" VerticalAlignment="Top" Width="147"/>
+        <Grid HorizontalAlignment="Left" Height="322" Margin="180,10,0,0" VerticalAlignment="Top" Width="310">
+
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#33000000" Offset="0"/>
+                    <GradientStop Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="6*"/>
+            </Grid.ColumnDefinitions>
+            <Rectangle Stroke="Black" Grid.RowSpan="2">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#00000000" Offset="1"/>
+                        <GradientStop Color="#FF97F6D8"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <ListBox x:Name="Unit_ListBox" HorizontalAlignment="Left" Height="322" VerticalAlignment="Top" Width="103" Background="#33000000" BorderBrush="{x:Null}" Grid.RowSpan="2" BorderThickness="0" SelectionChanged="Unit_ListBox_SelectionChanged"/>
+            <TextBlock x:Name="Unit_Desc_Text" Grid.Column="1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Unit Desc" VerticalAlignment="Top" Height="161" Width="207" FontSize="10">
+                <TextBlock.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF95F6D7" Offset="0"/>
+                        <GradientStop Color="#33000000" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBlock.Background>
+            </TextBlock>
+            <TextBlock x:Name="Unit_Wordlist_Text" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="1" TextWrapping="Wrap" Text="Unit Wordlist" VerticalAlignment="Top" Height="161" Width="207" FontSize="10">
+                <TextBlock.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#33000000" Offset="0"/>
+                        <GradientStop Color="#FF91F6D6" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBlock.Background>
+            </TextBlock>
+        </Grid>
+        <Button x:Name="Erase_Button" Content="Wyczyść dane użytkownika" HorizontalAlignment="Left" Margin="10,264,0,0" VerticalAlignment="Top" Width="147" IsEnabled="False" Padding="0"/>
+        <Button x:Name="DBEditor_Button" Content="Edytuj Bazę" HorizontalAlignment="Left" Margin="10,237,0,0" VerticalAlignment="Top" Width="147" Click="DBEditor_Button_Click"/>
+        
+
+
+    </Grid>
+</Window>

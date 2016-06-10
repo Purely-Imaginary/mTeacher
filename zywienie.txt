@@ -1,0 +1,20 @@
+﻿##Żywienie#Podstawowe słówka związane z żywieniem
+bacon#bekon
+beef#wołowina
+chicken#kurczak
+ham#szynka
+meat#mięso
+pork#wieprzowina
+sausage#kiełbasa
+turkey#indyk
+cod#dorsz
+fish#ryba
+herring#śledź
+prawn#krewetka
+salmon#łosoś
+seafood#owoce morza
+tuna#tuńczyk
+
+##bhvfjb#test description
+bvhdj#bvfdk
+vnjdfkb#nvjdfkn

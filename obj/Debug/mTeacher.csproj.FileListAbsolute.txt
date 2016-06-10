@@ -1,0 +1,15 @@
+D:\Dropbox\Dokumenty\Visual Studio 2012\Projects\mTeacher\bin\Debug\mTeacher.exe.config
+D:\Dropbox\Dokumenty\Visual Studio 2012\Projects\mTeacher\bin\Debug\mTeacher.exe
+D:\Dropbox\Dokumenty\Visual Studio 2012\Projects\mTeacher\bin\Debug\mTeacher.pdb
+D:\Dropbox\Dokumenty\Visual Studio 2012\Projects\mTeacher\obj\Debug\mTeacher.csprojResolveAssemblyReference.cache
+D:\Dropbox\Dokumenty\Visual Studio 2012\Projects\mTeacher\obj\Debug\mTeacher_MarkupCompile.cache
+D:\Dropbox\Dokumenty\Visual Studio 2012\Projects\mTeacher\obj\Debug\mTeacher.g.resources
+D:\Dropbox\Dokumenty\Visual Studio 2012\Projects\mTeacher\obj\Debug\mTeacher.Properties.Resources.resources
+D:\Dropbox\Dokumenty\Visual Studio 2012\Projects\mTeacher\obj\Debug\mTeacher.csproj.GenerateResource.Cache
+D:\Dropbox\Dokumenty\Visual Studio 2012\Projects\mTeacher\obj\Debug\mTeacher.exe
+D:\Dropbox\Dokumenty\Visual Studio 2012\Projects\mTeacher\obj\Debug\mTeacher.pdb
+D:\Dropbox\Dokumenty\Visual Studio 2012\Projects\mTeacher\obj\Debug\Windows\DBEdit.baml
+D:\Dropbox\Dokumenty\Visual Studio 2012\Projects\mTeacher\obj\Debug\Windows\DBEdit.g.cs
+D:\Dropbox\Dokumenty\Visual Studio 2012\Projects\mTeacher\obj\Debug\Windows\App.g.cs
+D:\Dropbox\Dokumenty\Visual Studio 2012\Projects\mTeacher\obj\Debug\MainWindow.baml
+D:\Dropbox\Dokumenty\Visual Studio 2012\Projects\mTeacher\obj\Debug\MainWindow.g.cs
